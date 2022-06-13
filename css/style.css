@@ -20,11 +20,17 @@ nav {
 	height: 60px;
 	position: fixed;
 	background: linear-gradient(359deg, rgba(255,255,255,1), rgba(255,255,255,1), rgba(2,0,36,1));
-	display: grid;
+	/*display: grid;
 	grid-template-columns: 4fr 3fr 0fr;
 	grid-column-gap: 20px;
 	align-items: center;
-	justify-items: stretch;
+	justify-items: stretch;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--secondary);
+	color: #ffffff;
+	height: 50px;
 }
 
 nav .logo {
@@ -192,6 +198,5 @@ footer .topsection{
 .footer-menu li a {
 	text-decoration: none;
 	color: var(--primary);
-	/*font-size: 1.3em;*/
 	margin-left: 12px;
 }
