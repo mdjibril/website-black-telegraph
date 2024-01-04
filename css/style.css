@@ -15,26 +15,19 @@
 }
 
 nav {
-	/*display: none;*/
 	width: 100%;
 	height: 60px;
 	position: fixed;
 	background: linear-gradient(359deg, rgba(255,255,255,1), rgba(255,255,255,1), rgba(2,0,36,1));
-	/*display: grid;
-	grid-template-columns: 4fr 3fr 0fr;
-	grid-column-gap: 20px;
-	align-items: center;
-	justify-items: stretch;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background: var(--secondary);
 	color: #ffffff;
-	height: 50px;
+	padding: 0 100px;
 }
 
 nav .logo {
-	margin-left: 100px;
 	font-weight: 900;
 	font-size: 2.2em;
 	color: var(--primary);
@@ -43,7 +36,6 @@ nav .logo {
 .links li {
 	list-style-type: none;
 	display: inline;
-
 }
 
 
@@ -53,8 +45,6 @@ nav .logo {
 	font-size: 1.3em;
 	margin-left: 12px;
 }
-
-
 
 .btn {
 	width: auto;
